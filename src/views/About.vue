@@ -30,7 +30,6 @@ export default {
         // 基于准备好的dom，初始化echarts实例
         let myChart = this.$echarts.init(document.getElementById('myChart'))
         this.option = {
-          backgroundColor: '#2c343c',
       
           title: {
               text: 'Customized Pie',
