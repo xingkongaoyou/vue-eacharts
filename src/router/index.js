@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Login from './login';
-import Nihao from './nihao';
+import Gauge from './gauge';
 // import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
@@ -21,7 +21,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   ...Login,
-  ...Nihao
+  ...Gauge
 ]
 
 const router = new VueRouter({
